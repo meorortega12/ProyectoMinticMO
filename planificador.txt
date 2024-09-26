@@ -1,0 +1,19 @@
+Crear el header, body y footer.
+Crear un header con los botones de acceso al contenido de la  página.
+Crear un título h2: "PORTAFOLIO DE SERVICIOS".
+Crear un h1: "Mi nombre es Marcos Ortega y soy PROGRAMADOR WEB(darle un enfasis con strong)"
+Crear una sección donde esté mi descripción biográfica.(no más de 4 líneas)
+crear otra sección donde muestre una imagen mía o de alguien programando que quede al frente de la anterior sección.
+crear un párrafo <p></p> para introducir a los diferentes servicios ofertados.
+crear una regilla con varias cajas que contengan: imágen, nombre, botón con link de acceso a la descripción.
+Poner una línea divisoria
+crear un título h3: "EXPERIENCIA DEL PROGRAMADOR"
+Crear un parrafo <p></p> para introducir a las diferentes creaciones realizadas.
+crear una regila con las distintas cajas que contengan: imágen, link de acceso al proyecto.
+Crear un título h3: "Si requieres mis servicios, deja tus datos Aqui..."
+crear un formulario con sus respectivos label e inputs que contenga: nombre, correo, celular, comentario(mensaje). con su repectivo botón.
+crear dentro del footer: derechos reservados.
+
+
+
+Crear las páginas web con las descripciones de los respectivos servicios ofrecidos
