@@ -123,35 +123,35 @@
         <div class="contenedor-formulario">
           <form action="#" class="formulario">
             <div>
-              <label for="">
+              <label for="name">
                   Nombres y apellidos:<span>*</span>
               </label>
               <div>
-                  <input placeholder="Clark Kent" type="text" name="name" value>
+                  <input placeholder="Clark Kent" id="nombre" type="text" name="name" value required>
               </div>
             </div>
             <div>
-              <label for="">
+              <label for="email">
                 Correo Electrónico:<span>*</span>
               </label>
               <div>
-                <input placeholder="micorreo@gmail.com" type="email" name="email" value>
+                <input placeholder="micorreo@gmail.com" type="email" id="email" required name="email" value >
               </div>
             </div>
               <div>
-                <label for="">
+                <label for="subject">
                   Asunto:<span>*</span>
                 </label>
                 <div>
-                  <input placeholder="Tratar de conquistar el mundo" type="text" name="subject" value data-last-active-input>
+                  <input type="text" placeholder="Tratar de conquistar el mundo" id="asunto" name="subject" value data-last-active-input required>
                 </div>
               </div>
               <div>
-                <label for="">
+                <label for="message">
                   Detalles: <span>*</span>
                 </label>
                 <div>
-                  <textarea name="mesagge" placeholder="Houston, tenemos problemas"></textarea>
+                  <textarea maxlength="280" name="message" id="mensaje" placeholder="Houston, tenemos problemas" required></textarea>
                 </div>
                 <div>
                   <button class="boton boton-formulario" type="submit">Enviar</button>
@@ -161,5 +161,7 @@
         </div>
       </section>
     </main>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="form.js"></script>
   </body>
 </html>

@@ -28,14 +28,26 @@ body {
 
 .boton-regreso {
   background-color: #532bba;
-  color:#ffffff;
-  width: 60px;
-  height: auto;
+  /* background-color: black; */
+  padding: 12px;
+
+}
+.boton-regreso:hover{
+  background-color: #3D315B;
+}
+.boton-regreso a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.boton-regreso:hover {
+.boton-regreso a:hover {
   color: #ffb200;
-  background-color: #3D315B;
+}
+
+.caja-boton--volver {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .caja_1 {
